@@ -1,0 +1,31 @@
+* {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+#introduction {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-style: italic;
+}
+
+.note {
+    background-color: rgb(255, 255, 255);
+    color: rgb(162, 44, 44);
+    font-size: 20px;
+    font-style: italic;
+}
+
+.note #mailto {
+    color: rgb(162, 44, 44);
+    background-color: aquamarine;
+}
+.note #address{
+    color: greenyellow;
+    background-color: beige;
+}

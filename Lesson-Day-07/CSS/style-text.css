@@ -1,0 +1,20 @@
+p {
+    font-weight: bold;
+}
+span {
+    font-style: italic;
+}
+d3 {
+    text-transform: uppercase;
+    text-transform: capitalize;
+}
+#d41, #d43, #d45{
+    text-decoration: line-through;
+}
+#d42,#d44 {
+    text-decoration: underline;
+}
+a:link {
+    color: blue;
+    text-decoration: none;
+}

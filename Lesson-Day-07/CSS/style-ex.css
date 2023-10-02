@@ -1,0 +1,57 @@
+h3 {
+    color: navy;
+}
+p {
+    color: #fb7d9e;
+}
+strong {
+    color: rgb(128,0,128);
+}
+div {
+    height: 300px;
+    width: 400px;
+    background-color: blue;
+}
+h4 {
+    background-color: orange;
+    color: blue;
+    color: white;
+    
+}
+b {
+    color: black;
+}
+i {
+    color: red;
+}
+em {
+    color: blue;
+}
+.note #udur{
+    color: blue;
+}
+.note #gradus {
+    color: red;
+}
+#code {
+    background-color: yellow;
+}
+body {
+    background-color: #90EE90;
+}
+#lorem {
+    color: pink;
+    background-color: green;
+}
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    border-radius: 50%;
+}
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    
+}
