@@ -18,3 +18,22 @@ a:link {
     color: blue;
     text-decoration: none;
 }
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+a:visited {
+    color: yellowgreen;
+}
+#d6 {
+    text-transform: capitalize;
+}
+#d7 {
+    text-decoration: line-through;
+}
+#d71 {
+    text-decoration: underline;
+}
+#hover a:hover {
+    text-decoration: underline;
+}
