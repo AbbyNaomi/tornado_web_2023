@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111111;
+}
+
+
+.d1 table {
+    width: 700px;
+
+}
+
+.d1 th,
+td {
+    padding: 7px 7px 10px 10px;
+    text-align: center;
+}
+
+
+
+.d2  {
+    
+    background-color: #FBFFDC;
+}
+
+.d2 th,
+td {
+    padding: 7px 7px 10px 10px;
+    text-align: center;
+}
+
+.d2 th {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+
+
+.d3 th {
+    padding: 5px;
+    border-bottom: 2px solid #AAC8A7;
+    border-top: 1px solid #C3EDC0;
+
+}
+
+.d3 td {
+    padding: 5px;
+    text-align: center;
+    border-top: 1px solid #C3EDC0;
+}
+
+.name {
+    text-align: left;
+}
+
+
+
+.d4 table {
+    
+    background-color: #FBFFDC;
+}
+
+.d4 th,
+td {
+    padding: 7px 7px 10px 10px;
+    text-align: center;
+}
+
+.d4 th {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border-bottom: 2px solid #F7C8E0;
+    border-top: 1px solid #FFDEB4;
+}
+
+.d4 td {
+    border-bottom: 1px solid #FFDEB4;
+}
+
+.odd {
+    background-color: #FAF3F0;
+}
+
+.even {
+    background-color: #F8E8EE;
+}
+
+.d5 {
+    /* border: 1px solid black; */
+    border-style: hidden;
+    border-spacing: 0;
+    border-bottom: #04AA6D solid 1px;
+}
+.d5 th {
+    background-color: #04AA6D;
+    color: white;
+}
+.even1 {
+    background-color: #f2f2f2;
+    color: #04AA6D;
+}
+.ni {
+    border-bottom: 1px solid #04AA6D;
+}
+.d6 {
+    padding: 5px;
+    width: 25px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #a9dd00;
+    border-style: hidden;
+    background-color: darkcyan;
+    empty-cells: hide;
+}
+.d7 {
+    padding: 5px;
+    width: 25px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    border-style: hidden;
+    background-color: beige;
+}
+.d7 th:hover {
+    background-color: #a9dd00;
+}
+
+
+.d8 td {
+    width: 100px;
+    height: 150px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: contain;
+    border:2px solid #F31559 ;
+    border-radius: 10px;
+}
+.d8 {
+    border-spacing: 15px;
+}
+
+table.second td {
+    width: 100px;
+    height: 150px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: contain;
+    border:2px solid #F31559 ;
+    border-radius: 10px;
+    
+    
+}
+.second {
+    border-spacing: 15px;
+    border-collapse: collapse;
+}

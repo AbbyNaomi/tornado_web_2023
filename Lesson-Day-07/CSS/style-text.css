@@ -14,7 +14,7 @@ d3 {
 #d42,#d44 {
     text-decoration: underline;
 }
-a:link {
+a {
     color: blue;
     text-decoration: none;
 }
