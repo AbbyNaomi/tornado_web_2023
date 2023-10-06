@@ -1,0 +1,39 @@
+.d1 {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+.d3 {
+    list-style-type: lower-alpha;
+}
+
+.d4 {
+    list-style-type: square;
+}
+
+.d5 li {
+    list-style-image: url("image/star.png");
+}
+
+.d5 li {
+    margin: 10px;
+}
+
+.vegatables li {
+    list-style-type: square;
+}
+.fruits li {
+    list-style-type: decimal-leading-zero;
+}
+.dairy li {
+    list-style-type: georgian;
+}
+.alpha li {
+    list-style-type: lower-alpha;
+}
+.d8 li {
+    list-style-type: disc;
+}
