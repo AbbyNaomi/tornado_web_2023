@@ -1,0 +1,60 @@
+.all {
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color: whitesmoke;
+    height: 900px;
+    width: 650px;
+}
+.header {
+    background-color: darkslategray;
+    text-align: center;
+}
+.header1 {
+    font-size: 25px;
+    color: white;
+}
+.header2 {
+    color: darkcyan;
+    margin-top: 10px;
+}
+.header3 {
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: white;
+}
+
+.header3 span {
+    margin-left: 20px;
+}
+.pinned {
+    margin-top: 60px;
+    margin-left: 10px;
+    color: darkgray;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.1rem;
+    border-bottom: 1px solid lightgrey;
+}
+.h2 {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.pinned1 {
+    margin-left: 10px;
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: lighter;
+}
+.pinned2 {
+    color: darkgray;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.pinned2 span {
+    color: lightskyblue;
+}
