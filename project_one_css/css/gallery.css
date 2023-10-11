@@ -1,0 +1,89 @@
+#all {
+    background-color: lightgray;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 900px;
+    width: 670px;
+}
+#head {
+    
+    background-color: black;
+    color: white;
+    border: black;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+#picture {
+    margin-top: 14px;
+    margin-left: 5px;
+    
+}
+#z1 {
+    margin-left: 10px;
+    box-shadow: 0 0 10px #777777;
+}
+#z2 {
+    margin-left: 10px;
+    box-shadow: 0 0 10px #777777;
+}
+#z3 {
+    margin-left: 10px;
+    box-shadow: 0 0 10px #777777;
+}
+#z4 {
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0 0 10px #777777;
+}
+#z5 {
+    margin-top: 8px;
+    margin-left: 10px;
+    box-shadow: 0 0 10px #777777;
+}
+#z6 {
+    margin-top: 8px;
+    margin-left: 10px;
+    box-shadow: 0 0 10px #777777;
+}
+#z7 {
+    margin-top: 8px;
+    margin-left: 10px;
+    box-shadow: 0 0 10px #777777;
+}
+#end {
+    margin-top: 5px;
+    background-color: black;
+    height: 150px;
+}
+#info {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#info1 {
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#info1 span {
+    margin-left: 20px;
+}
+#info2 {
+    font-size: 10px;
+}
+#head2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+    border: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
