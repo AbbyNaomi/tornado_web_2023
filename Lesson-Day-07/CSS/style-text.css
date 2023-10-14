@@ -34,6 +34,26 @@ a:visited {
 #d71 {
     text-decoration: underline;
 }
-#hover a:hover {
+:hover.d81{
+    
+    color: blue;
+}
+:hover.d82{
+    font-size: large;
+}
+:hover.d83{
     text-decoration: underline;
+    
+}
+.submit :focus{
+    background-color: green;
+    color:black;
+    border: 7px;
+}
+.d10 {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid blue;
+
 }

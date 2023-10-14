@@ -1,0 +1,12 @@
+.all {
+    font-family: 'Roboto', sans-serif; 
+}
+.header {
+    width: 100%;
+    background-color: #603601;
+    color: white;
+    padding-left: 89.49px;
+    padding-right: 89.52px;
+    position: fixed;
+    top: 0;
+}
