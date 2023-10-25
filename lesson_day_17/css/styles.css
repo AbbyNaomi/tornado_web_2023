@@ -1,0 +1,25 @@
+#page {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px solid greenyellow;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.container .container-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+}

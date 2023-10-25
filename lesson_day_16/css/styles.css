@@ -1,0 +1,18 @@
+#page {
+    width: 500px;
+    height: 900px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid bisque;
+
+}
+h1 {
+    background-color: antiquewhite;
+}
+.content img {
+    width: 300px;
+    height: 300px;
+}
+.content{
+    display: flex;
+}
