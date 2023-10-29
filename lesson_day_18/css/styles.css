@@ -1,0 +1,14 @@
+#page {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+#page h1{
+    margin: 0;
+    padding: 20px;
+    background: gainsboro;
+}
