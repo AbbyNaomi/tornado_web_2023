@@ -1,0 +1,141 @@
+body {
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #013560;
+    color: white;
+    width: 1430px;
+    box-sizing: border-box;
+    height: 70px;
+    align-items: center;
+    padding: 0px 71.5px;
+    position: fixed;
+    top: 0;
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 19.42px;
+}
+#iCom {
+    font-size: 25px;
+}
+.heading {
+    margin-top: 70px;
+    background-image: url('../img/biz-header.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 1430px;
+    height: 486px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.shader {
+    width: 1430px;
+    height: 486px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.50) 100%);
+}
+.header-content {
+    position: absolute;
+    top: 0;
+    padding: 73px 189.5px 73px 189.5px;
+}
+.head1{
+    font-size: 45px;
+    margin-top: 100px;
+}
+.head2{
+    font-size: 20px;
+    font-weight: 400px;
+    
+}
+.head3{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20.33px;
+}
+.h3contact{
+    background-color: #013560;
+    border-radius: 10px;
+    padding: 12px 30px 13px 30px;
+}
+.h3about{
+    background-color: #013560;
+    border-radius: 10px;
+    padding: 12px 30px 13px 30px;
+}
+.head4 {
+    font-size: 20px;
+}
+.slidePic {
+    padding-top: 20px;
+    width: 1287px;
+    height: 486px;
+}
+.main {
+    padding-left: 71.5px;
+    padding-right: 71.5px;
+}
+#banner1-head {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+#banner1-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    gap: 40px;
+    
+    
+}
+.banner1-content1{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.banner1-content2{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.banner1-content3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+.banner1-content4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+.banner1-content5{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #FFF;
+    background-color: #013560;
+    border-radius: 10px;
+    padding: 12px 30.52px 13px 30px;
+    display: inline-flex;
+    align-items: flex-start;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #013560;
+    color: white;
+    width: 1430px;
+    height: 332px;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0px 71.5px;
+    position: fixed;
+    bottom: 0;
+}
