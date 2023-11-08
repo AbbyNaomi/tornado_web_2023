@@ -1,121 +1,191 @@
 body {
     margin: 0 auto;
 }
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #013560;
-    color: white;
-    width: 1430px;
-    box-sizing: border-box;
-    height: 70px;
-    align-items: center;
-    padding: 0px 71.5px;
-    position: fixed;
-    top: 0;
+
+#page {
+    max-width: 1430px;
+    margin: 0 auto;
 }
-#nav {
-    display: flex;
-    justify-content: space-between;
-    gap: 19.42px;
-}
-#iCom {
-    font-size: 25px;
-}
-.heading {
-    margin-top: 70px;
-    background-image: url('../img/biz-header.jpg');
-    background-position: center;
-    background-size: cover;
-    width: 1430px;
-    height: 486px;
-    color: white;
-    text-align: center;
-    position: relative;
-}
-.shader {
-    width: 1430px;
-    height: 486px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.50) 100%);
-}
-.header-content {
-    position: absolute;
-    top: 0;
-    padding: 73px 189.5px 73px 189.5px;
-}
-.head1{
-    font-size: 45px;
-    margin-top: 100px;
-}
-.head2{
-    font-size: 20px;
-    font-weight: 400px;
-    
-}
-.head3{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 20.33px;
-}
-.h3contact{
-    background-color: #013560;
-    border-radius: 10px;
-    padding: 12px 30px 13px 30px;
-}
-.h3about{
-    background-color: #013560;
-    border-radius: 10px;
-    padding: 12px 30px 13px 30px;
-}
-.head4 {
-    font-size: 20px;
-}
-.slidePic {
-    padding-top: 20px;
-    width: 1287px;
-    height: 486px;
-}
-.main {
+
+main {
     padding-left: 71.5px;
     padding-right: 71.5px;
 }
-#banner1-head {
-    text-align: center;
-    font-size: 40px;
-    font-weight: 500;
+
+section {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-#banner1-content{
+
+/* header section */
+
+header {
+    background-color: #013560;
+    color: white;
+    background-image: url('../img/biz-header.jpg');
+    background-position: center;
+    height: 486px;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 19.42px;
+    background: #013560;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+header nav #nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    margin-left: 71.5px;
+}
+
+header nav #nav-middle {
+    display: flex;
+    justify-content: space-between;
+    gap: 19.2px;
+}
+
+header nav #nav-right {
+    margin-right: 71.5px;
+}
+
+header .heading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.50) 100%);
+}
+
+header .heading .head2 {
+    margin-top: 20px;
+}
+
+header .heading .heading-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20.33px;
+    margin-top: 20px;
+}
+
+header .heading .heading-buttons button {
+    border-radius: 10px;
+    background: #013560;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    width: 146px;
+    height: 46px;
+    border: #013560;
+}
+
+header .heading .header-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* main sections */
+
+main #slide-pic {
+    width: 100%;
+}
+
+main #slide-pic img {
+    width: 100%;
+    height: 486px
+}
+
+/* about us */
+
+main #head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main #head #about-us-line {
+    width: 100px;
+    height: 1px;
+    background: #013560;
+}
+
+main #head #about-us-round {
+    border-radius: 10px;
+    background: #013560;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -10px;
+}
+
+main #about-us-content {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     flex-direction: row;
     gap: 40px;
-    
-    
+    margin-top: 20px;
 }
-.banner1-content1{
+
+main #about-us-content img {
+    width: 608px;
+    height: 500px;
+}
+
+main #banner1-contentA {
+    padding: 15px;
+}
+
+#banner1-content img {
+    height: 500px;
+    width: 630px;
+
+}
+
+.banner1-content1 {
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 1px;
 }
-.banner1-content2{
+
+.banner1-content2 {
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 1px;
 }
-.banner1-content3{
+
+.banner1-content3 {
     font-size: 18px;
     font-weight: 700;
     line-height: 27px;
+    width: 560px;
+    margin-top: 20px;
 }
-.banner1-content4{
+
+.banner1-content4 {
     font-size: 16px;
     font-weight: 400;
     line-height: 28.8px;
+    color: #666;
+    width: 560px;
+    margin-top: 20px;
 }
-.banner1-content5{
+
+.banner1-content5 {
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -125,17 +195,77 @@ header {
     padding: 12px 30.52px 13px 30px;
     display: inline-flex;
     align-items: flex-start;
+    margin-top: 20px;
 }
-footer {
+
+/* our services */
+
+main #our-services-content {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1287px;
+    height: 536px;
+    gap: 40px;
+}
+
+main #our-services-content1 {
+    width: 402.33px;
+    height: 248px;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.10);
+    text-align: center;
+
+}
+
+main #our-services-content1 img {
+    display: inline-flex;
+    padding: 0px 121.17px 3px 121.16px;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+}
+
+main #our-services-content1 h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #013560;
+}
+
+main #our-services-content1 p {
+    color: #000;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+/* our team */
+
+main #our-team-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+main #our-team-content1 {
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+/* footer section */
+
+footer {
+    /* display: flex;
+    justify-content: space-around; */
     background-color: #013560;
     color: white;
-    width: 1430px;
+    width: 100%;
     height: 332px;
     box-sizing: border-box;
     align-items: center;
-    padding: 0px 71.5px;
-    position: fixed;
-    bottom: 0;
+    /* padding: 0px 71.5px; */
+
 }
