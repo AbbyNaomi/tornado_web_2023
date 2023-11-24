@@ -1,11 +1,15 @@
 import MainContent from "./MainContent";
 import SideBar from "./SideBar";
+import Header from "./Header";
 
 const HomePage = () => {
-    return(
+    return (
         <div className="flex ">
             <SideBar />
-            <MainContent />
+            <div className="flex-col">
+                <Header />
+                <MainContent />
+            </div>
         </div>
     )
 }
