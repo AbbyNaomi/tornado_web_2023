@@ -1,6 +1,7 @@
 import MainContent from "./MainContent";
 import SideBar from "./SideBar";
 import Header from "./Header";
+import Footer from "./Footer";
 
 const HomePage = () => {
     return (
@@ -9,6 +10,7 @@ const HomePage = () => {
             <div className="flex-col">
                 <Header />
                 <MainContent />
+                <Footer />
             </div>
         </div>
     )

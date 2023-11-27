@@ -1,6 +1,6 @@
 const MainContent = () => {
     return (
-        <div className="flex">
+        <div className="flex-col">
             <div className="w-[982px] h-[1088.99px] flex-col justify-start items-start gap-4 inline-flex px-20 py-[60px]">
                 <div>
                     <div className="w-[982px] h-[47.33px] justify-between items-center flex">

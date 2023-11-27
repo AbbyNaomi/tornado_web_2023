@@ -17,7 +17,7 @@ const SideBar = () => {
                                 <div className="text-opacity-20 text-sm font-normal leading-[21px]">Hobby</div>
                             </div>
                             <div className="w-[250px] px-4 py-2 bg-white rounded justify-start items-start inline-flex">
-                                <div class=" text-opacity-20 text-sm font-normal leading-[21px]">Travel</div>
+                                <div className=" text-opacity-20 text-sm font-normal leading-[21px]">Travel</div>
                             </div>
                             <div className="w-[250px] px-4 py-2 bg-white rounded justify-start items-start inline-flex">
                                 <div className=" text-opacity-20 text-sm font-normal  leading-[21px]">Food&Beverage</div>
