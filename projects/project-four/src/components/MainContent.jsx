@@ -390,7 +390,7 @@ const MainContent = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-[60px] mr-[76px] ml-[500px] w-[141px] h-12 px-5 py-3 rounded-[10px] border border-zinc-500 border-opacity-30 justify-center items-center gap-3 inline-flex">
+            <div className="mt-[60px] mr-[76px] ml-[500px] w-[141px] h-12 px-5 py-3 rounded-[10px] border border-zinc-500 border-opacity-30 justify-center items-center gap-3 flex">
                 <div className="text-zinc-500 text-base font-normal leading-normal">Цааш унших</div>
             </div>
         </div>

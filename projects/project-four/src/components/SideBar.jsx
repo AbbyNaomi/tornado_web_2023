@@ -3,7 +3,7 @@ const SideBar = () => {
         <div className="w-[348px] h-[1802px] px-[49px] py-10 border-2 border-slate-200 flex-col justify-start items-start gap-2.5 inline-flex">
             <div className="flex">
                 <img src="Group.png" alt="1" />
-                <div><span className="text-red-400 text-3xl font-normal font-['Okta Neue']">i</span><span className="text-amber-500 text-3xl font-normal font-['Okta Neue']">blog</span></div>
+                <div><span className="text-red-400 text-3xl font-normal ">i</span><span className="text-amber-500 text-3xl font-normal font-['Okta Neue']">blog</span></div>
             </div>
             <div className="w-[250px] h-[442px] flex-col justify-start items-start gap-9 inline-flex">
                 <div className="h-[442px] flex-col justify-start items-start gap-8 flex">
