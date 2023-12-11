@@ -1,7 +1,7 @@
 const MainContent = () => {
     return (
         <div className="flex-col">
-            <div className="w-[982px] h-[1088.99px] flex-col justify-start items-start gap-4 inline-flex px-20 py-[60px]">
+            <div className="w-[982px] flex-col justify-start items-start gap-4 inline-flex px-20 py-[60px]">
                 <div>
                     <div className="w-[982px] h-[47.33px] justify-between items-center flex">
                         <div className="px-[18.20px] py-[10.92px] justify-center items-center gap-[9.10px] flex">
@@ -394,9 +394,6 @@ const MainContent = () => {
                 <div className="text-zinc-500 text-base font-normal leading-normal">Цааш унших</div>
             </div>
         </div>
-
-
-
     );
 }
 

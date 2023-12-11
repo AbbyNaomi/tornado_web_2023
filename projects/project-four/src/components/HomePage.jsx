@@ -2,14 +2,15 @@ import MainContent from "./MainContent";
 import SideBar from "./SideBar";
 import Header from "./Header";
 import Footer from "./Footer";
+import { Outlet } from "react-router-dom";
 
 const HomePage = () => {
     return (
-        <div className="flex ">
+        <div className="flex">
             <SideBar />
             <div className="flex-col">
                 <Header />
-                <MainContent />
+                <Outlet />
                 <Footer />
             </div>
         </div>

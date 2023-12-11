@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <div className="w-[1091px] h-[119px] px-12 py-[39px] bg-white border-b border-slate-200 justify-end items-start gap-[116px] inline-flex">
+        <div className="w-[1091px] px-12 py-[39px] bg-white border-b border-slate-200 justify-end items-start gap-[116px] inline-flex">
             <div className="w-[572px] h-[39px] px-[25px] rounded-[20px] border border-neutral-300 justify-between items-center flex">
                 <div className="w-[39px] h-4 text-zinc-500 text-base font-normal ">Хайх</div>
                 <div className="w-5 h-5 justify-center items-center flex">

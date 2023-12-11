@@ -1,12 +1,12 @@
 const SideBar = () => {
     return (
-        <div className="w-[348px] h-[1802px] px-[49px] py-10 border-2 border-slate-200 flex-col justify-start items-start gap-2.5 inline-flex">
+        <div className="w-[348px] px-[49px] py-10 border-2 border-slate-200 flex-col justify-start items-start gap-2.5 inline-flex">
             <div className="flex">
                 <img src="Group.png" alt="1" />
                 <div><span className="text-red-400 text-3xl font-normal ">i</span><span className="text-amber-500 text-3xl font-normal font-['Okta Neue']">blog</span></div>
             </div>
-            <div className="w-[250px] h-[442px] flex-col justify-start items-start gap-9 inline-flex">
-                <div className="h-[442px] flex-col justify-start items-start gap-8 flex">
+            <div className="w-[250px]  flex-col justify-start items-start gap-9 inline-flex">
+                <div className="flex-col justify-start items-start gap-8 flex">
                     <div className="flex-col justify-center items-start gap-3 flex">
                         <div className="w-[250px] justify-between items-center inline-flex">
                             <div className=" text-opacity-20 text-sm font-semibold ">Lifestyle</div>
