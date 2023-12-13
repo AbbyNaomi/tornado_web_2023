@@ -2,6 +2,8 @@ import HomePage from "./components/HomePage"
 import { Route, Routes } from "react-router-dom"
 import MainContent from "./components/MainContent"
 import Login from "./components/Login"
+import Register from "./components/Register"
+import RegisterPassword from "./components/RegisterPassword"
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
           
         </Route>
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/register_password" element={<RegisterPassword />} />
       </Routes>
     </div>
     

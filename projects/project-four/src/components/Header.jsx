@@ -11,10 +11,10 @@ const Header = () => {
             <div></div>
             <div className="justify-end items-start gap-3.5 flex">
                 <div className="px-[30px] py-2.5 bg-white rounded-[10px] border border-zinc-200 justify-center items-center gap-2.5 flex">
-                    <div className="text-amber-600 text-base font-semibold  leading-[21px]">Бүртгүүлэх</div>
+                    <a href="/register" className="text-amber-600 text-base font-semibold  leading-[21px]">Бүртгүүлэх</a>
                 </div>
                 <div className="px-[30px] py-2.5 bg-amber-600 rounded-[10px] justify-center items-center gap-2.5 flex">
-                    <div className="text-white text-[15px] font-medium  leading-[21px]">Нэвтрэх</div>
+                <a href="/login" className="text-white text-[15px] font-medium  leading-[21px]">Нэвтрэх</a>
                 </div>
             </div>
         </div>
