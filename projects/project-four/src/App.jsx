@@ -4,6 +4,7 @@ import MainContent from "./components/MainContent"
 import Login from "./components/Login"
 import Register from "./components/Register"
 import RegisterPassword from "./components/RegisterPassword"
+import Profile from "./components/Profile"
 
 function App() {
 
@@ -13,14 +14,15 @@ function App() {
       <Routes >
         <Route path="/" element={<HomePage />} >
           <Route path="/" element={<MainContent />} />
-          
+
         </Route>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/register_password" element={<RegisterPassword />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </div>
-    
+
   )
 }
 
